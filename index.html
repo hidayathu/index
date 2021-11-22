@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="hid.css">
+
+
+    <meta charset="utf-8">
+    <title>project</title>
+  </head>
+  <body>
+    <img src="banner.png" alt="">
+    <table>
+      <div class="list">
+        <a href="#">home</a>
+        <a href="#">about us</a>
+      <a href="#">courses</a>
+      <a href="#">department</a>
+      <a href="#">facilities</a>
+      <a href="#">esearch$development</a>
+        </div>
+        <div class="slideshows">
+
+            <img class="slideshow" src="18.jpg" alt="">
+
+          <img  class="slideshow"src="9.jpg" alt="">
+
+            <img  class="slideshow" src="7.jpg" alt="">
+
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+        </div>
+
+      <div class="three">
+        <div id="first">
+          <h3>chairman message</h3>
+          <p> Sri Venkateswara College of Educational and Cultural trust which runs this college is committed to provide quality education in building the future of today’s youth. In the era of globalization, working environment has become highly competitive and challenging.
+          </p>
+
+        </div>
+        <div id="second">
+          <h3>COLLEGE VISION</h3>
+          <p>  To emerge as a respected provider of knowledge, to develop an educational society with cutting edge support systems, industry interactions and career opportunities for the younger generations.</p>
+
+
+        </div>
+        <div id="third">
+          <h3>COLLEGE MISSION</h3>
+          <p>   To grow as a premium educational institution, to provide quality education to the deserving students. To shape up a vast resource of talent pool that will serve the nation making it force to reckon with.</p>
+        </div>
+
+
+      </div>
+
+<script type="text/javascript">
+var slideindex=1;
+showdivs(slideindex);
+
+function plusdivs(n){
+  showdivs(slideindex +=n);
+}
+function showdivs(n){
+  var i;
+  var x=document.getElementsByClassName('slideshow')
+  if (n > x.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = x.length}
+ for (i = 0; i < x.length; i++) {
+   x[i].style.display = "none";
+ }
+ x[slideIndex-1].style.display = "block";
+
+}
+
+</script>
+
+
+
+
+
+  </body>
+</html>

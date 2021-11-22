@@ -1,0 +1,61 @@
+.slideshow{
+display: none;
+}
+.list
+{
+background-color: white;
+border-top: 1px solid;
+border-left: 1px solid;
+border-right: 1px solid;
+border-bottom: 1px solid;
+padding: 15px;
+}
+.list a
+{
+  text-align: center;
+  padding-left: 5%;
+  font-size: 30px;
+}
+.three
+{
+  text-align: center;
+  width:1200px;
+  height:500px;
+  background-color: white;
+
+}
+#first
+{
+  float:left;
+  width:300px;
+  height:200px;
+  background-color: white;
+  border:solid blue;
+  padding: 10px;
+  margin: 20px;
+}
+#second
+{
+
+    float:left;
+    width:300px;
+    height:200px;
+    background-color: white;
+    border:solid blue;
+  margin: 20px;
+    margin-left: 80px;
+    padding: 10px;
+
+
+}
+#third
+{
+
+    float:right;
+    width:300px;
+    height:200px;
+    background-color: white;
+    border:solid blue;
+    padding: 10px;
+      margin: 20px;
+}
